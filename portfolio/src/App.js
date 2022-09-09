@@ -1,11 +1,13 @@
-import logo from './FoxIcon.png';
+import logo from './assets/foxicon.png';
 import './App.css';
 import Navbar from "./components/Navbar";
+import Home from './components/Home';
 
 function App() {
   return (
     <div>
       <Navbar />  
+      <Home />
     </div>
   );
 }

@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "foxicon",
+        "noopener",
+        "noreferrer",
+        "TTFB",
+        "webfonts"
+    ],
+    "css.lint.unknownAtRules": "ignore"
+}

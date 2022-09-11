@@ -1,5 +1,8 @@
 import React from 'react'
-// import WorkImg from '../assets/workImg.jpeg'
+// import Breakout from '../assets/Breakout.jpeg'
+import MrMandibles from '../assets/MrMandibles.png'
+// import Quest from '../assets/Quest.jpeg'
+// import Routes from '../assets/Routes.jpeg'
 
 
 
@@ -12,20 +15,119 @@ const Work = () => {
                 <p className='py-6 text-[#297373]'>Check out some of my recent work.</p>
             </div>
 
+        {/*Container*/}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-            <div className='shadow-md shadow-[#170A1F] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+            {/*Grid Item*/}
+            <div style={{backgroundImage: `url(${MrMandibles})`}} 
+            className='shadow-md shadow-[#170A1F] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 
                 {/*Hover Effects*/}
-                <div>
-                    <span>
-
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-[#F7F2F7] tracking-wider'>
+                    React JS Application
                     </span>
-                    <div>
+                    <div className='pt-8 text-center'>
                         <a href="/">
-                            <button></button>
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Demo</button>
                         </a>
                         <a href="/">
-                            <button></button>
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {/*Grid Item*/}
+            <div style={{backgroundImage: `url(${MrMandibles})`}} 
+            className='shadow-md shadow-[#170A1F] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                
+                {/*Hover Effects*/}
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-[#F7F2F7] tracking-wider'>
+                    React JS Application
+                    </span>
+                    <div className='pt-8 text-center'>
+                        <a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Demo</button>
+                        </a>
+                        <a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {/*Grid Item*/}
+            <div style={{backgroundImage: `url(${MrMandibles})`}} 
+            className='shadow-md shadow-[#170A1F] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                
+                {/*Hover Effects*/}
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-[#F7F2F7] tracking-wider'>
+                    React JS Application
+                    </span>
+                    <div className='pt-8 text-center'>
+                        <a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Demo</button>
+                        </a>
+                        <a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {/*Grid Item*/}
+            <div style={{backgroundImage: `url(${MrMandibles})`}} 
+            className='shadow-md shadow-[#170A1F] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                
+                {/*Hover Effects*/}
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-[#F7F2F7] tracking-wider'>
+                    React JS Application
+                    </span>
+                    <div className='pt-8 text-center'>
+                        <a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Demo</button>
+                        </a>
+                        <a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {/*Grid Item*/}
+            <div style={{backgroundImage: `url(${MrMandibles})`}} 
+            className='shadow-md shadow-[#170A1F] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                
+                {/*Hover Effects*/}
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-[#F7F2F7] tracking-wider'>
+                    React JS Application
+                    </span>
+                    <div className='pt-8 text-center'>
+                        <a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Demo</button>
+                        </a>
+                        <a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {/*Grid Item*/}
+            <div style={{backgroundImage: `url(${MrMandibles})`}} 
+            className='shadow-md shadow-[#170A1F] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                
+                {/*Hover Effects*/}
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-[#F7F2F7] tracking-wider'>
+                    React JS Application
+                    </span>
+                    <div className='pt-8 text-center'>
+                        <a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Demo</button>
+                        </a>
+                        <a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#89568A] text-[#FF8552] font-bold text-lg'>Code</button>
                         </a>
                     </div>
                 </div>

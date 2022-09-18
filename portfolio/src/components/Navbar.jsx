@@ -47,7 +47,7 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#85FFC7]'>
             <a className='flex justify-between items-center w-full text-[#FF8552]'
-             href="https://www.linkedin.com/in/mary-frye-3b9877247?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4oLp8651ShSKS3qwTTSNpA%3D%3D">
+             href="https://www.linkedin.com/in/themaryfrye?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BiGFFgAPAS8mSDOoDAE9Jjw%3D%3D">
               Linkedin <FaLinkedin size={30} ></FaLinkedin>
             </a>
           </li>
